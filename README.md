@@ -44,18 +44,18 @@ $ streamlit run app.py
 
 ## Project Structure
 ResumeMatchAI/
-├── app.py                     # Streamlit web app
-├── requirements.txt           # List of dependencies
-├── README.md                  # Project documentation
-├── data/                      # Sample data (PDFs)
-├── src/                       # Source code
-│   ├── __init__.py            # Makes src a Python package
-│   ├── pdf_to_text.py         # PDF-to-text conversion
-│   ├── preprocess.py          # Text preprocessing
-│   ├── similarity.py          # Text similarity computation
-│   └── smart_classifier.py    # Main workflow
-└── tests/                     # Unit tests
-    ├── __init__.py
-    ├── test_pdf_to_text.py    # Tests for PDF-to-text
-    ├── test_preprocess.py     # Tests for preprocessing
-    └── test_similarity.py     # Tests for similarity computation
+|──app.py                     # Streamlit web app
+|── requirements.txt           # List of dependencies
+|── README.md                  # Project documentation
+|── data/                      # Sample data (PDFs)
+|── src/                       # Source code
+|   |── __init__.py            # Makes src a Python package
+|   |── pdf_to_text.py         # PDF-to-text conversion
+|   |── preprocess.py          # Text preprocessing
+|   |── similarity.py          # Text similarity computation
+|   |── smart_classifier.py    # Main workflow
+|── tests/                     # Unit tests
+    |── __init__.py
+    |── test_pdf_to_text.py    # Tests for PDF-to-text
+    |── test_preprocess.py     # Tests for preprocessing
+    |── test_similarity.py     # Tests for similarity computation
