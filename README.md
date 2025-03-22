@@ -1,4 +1,4 @@
-# ResumeMatchAI
+# 📄 Resume Match AI
 
 An AI-powered tool to analyze the compatibility between resumes and job descriptions using natural language processing and machine learning
 
@@ -24,8 +24,8 @@ The **ResumeMatchAI** is a tool that takes a job description and a resume as inp
 ## Installation
 1. Clone the repository
 ```bash
-$ git clone https://github.com/beatriz-farias/ResumeMatchAI.git
-$ cd ResumeMatchAI
+$ git clone https://github.com/beatriz-farias/resume-match-ai.git
+$ cd resume-match-ai
 ```
 2. Install the dependencies
 ```bash
